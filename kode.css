@@ -1,20 +1,42 @@
-.item1 { grid-area: logo; }
-.item2 { grid-area: header; }
-.item3 { grid-area: nav; }
-.item4 { grid-area: picture; }
-.item5 { grid-area: main; }
-.item6 { grid-area: footer; }
+#liste {
+  list-style: none;
+  text-align: right;
+  font-family: courier;
+  color: blue;
+}
+
+.item1 {
+  grid-area: logo;
+ }
+.item2 {
+  grid-area: header;
+ }
+.item3 {
+  grid-area: nav;
+
+ }
+.item4 {
+  grid-area: picture;
+ }
+.item5 {
+  grid-area: main;
+ }
+.item6 {
+  grid-area: footer;
+ }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header'
-    'menu'
-    'main'
-    'right'
-    'footer';
+    'logo header header header'
+    'nav picture picture picture'
+    'main main main main'
+    'main main main main'
+    'main main main main'
+    'main main main main'
+    'footer footer footer footer';
   grid-gap: 10px;
-  background-color: #ffffff;
+  background-color: Pink;
   padding: 10px;
 }
 
@@ -22,5 +44,5 @@
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
+
 }
