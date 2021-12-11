@@ -2,11 +2,14 @@
 
 .item1 {
   grid-area: logo;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/moodboardogstyletiles/logo.png') center;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/moodboardogstyletiles/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .item2 {
   grid-area: header;
+  box-sizing: border-box;
 }
 .item2 > h1 {
   font-family: Montserrat;
@@ -14,7 +17,9 @@
   text-align: left;
   color: blue;
   line-height: 20%;
-  margin: 5%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -25,14 +30,25 @@
 
 .item3 {
   grid-area: nav;
+
 }
-.item3 > ul {
+.item3  ul {
   display: flex;
   list-style: none;
-  color: blue;
+  text-transform: uppercase;
   font-family: Courier;
   text-align: right;
   flex-direction: column;
+}
+
+.item3 a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: blue;
+}
+
+#siden {
+  text-decoration: underline;
 }
 
 .item4 {
@@ -94,27 +110,154 @@
   '. catanimation isometricart .'
   '. animation ingenide .';
   grid-gap: 50px;
-  padding: 10px;
-
-
+  padding: 20px;
 }
 
 .item5 > .subcontainer > div {
-  display: flex;
   background-color: white;
+}
+
+.subitem1b {
+  grid-area: video;
+  height: 150px;
+  width: 150px;
 
 }
 
+.tekst1 {
+  grid-area: videotekst;
+  height: 150px;
+  width: 150px;
+
+}
+.subitem2b {
+  grid-area: photos;
+  height: 150px;
+  width: 150px;
+
+}
+
+.tekst2 {
+  grid-area: photostekst;
+  height: 150px;
+  width: 150px;
+
+}
+.subitem3b {
+  grid-area: catanimation;
+  height: 150px;
+  width: 150px;
+
+}
+
+.tekst3 {
+  grid-area: catanimationtekst;
+  height: 150px;
+  width: 150px;
+
+}
+.subitem4b {
+  grid-area: isometricart;
+  height: 150px;
+  width: 150px;
+
+}
+
+.tekst4 {
+  grid-area: isometricarttekst;
+  height: 150px;
+  width: 150px;
+
+}
+.subitem5b {
+  grid-area: animation;
+  height: 150px;
+  width: 150px;
+
+}
+
+.tekst5 {
+  grid-area: animationtekst;
+  height: 150px;
+  width: 150px;
+
+}
+.subitem6b {
+  grid-area: ingenide;
+  height: 150px;
+  width: 150px;
+
+}
+
+.tekst6 {
+  grid-area: ingenidetekst;
+  height: 150px;
+  width: 150px;
+
+}
+
+.item5 > .subcontainerb {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr ;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-areas:
+  '. video videotekst .'
+  '. photostekst photos .'
+  '. catanimation catanimationtekst .'
+  '. isometricarttekst isometricart .'
+  '. animation animationtekst .'
+  '. ingenidetekst ingenide .'
+  ;
+  grid-gap: 50px;
+  padding: 20px;
+}
+
+.item5 > .subcontainerb > div {
+  background-color: white;
+}
 
 .item6 {
   grid-area: footer;
   background-color: lightblue;
 
 }
-.item6 > p {
-  color: blue;
-  font-family: Courier;
+.socials {
+  display: flex;
+  align-content: space-between;
 }
+
+.socials > p {
+  font-family: Courier;
+  color: blue;
+  text-transform: uppercase;
+  width: auto;
+  height: 30px;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.socials > ul {
+  display: flex;
+  width: auto;
+  height: 30px;
+  margin: auto;
+  padding: 10px;
+
+
+}
+
+.socialicon {
+  list-style: none;
+}
+
+.socialicon a {
+  color: blue;
+  font-size: 30px;
+  padding: 10px 20px;
+
+}
+
 
 .grid-container {
   display: grid;
