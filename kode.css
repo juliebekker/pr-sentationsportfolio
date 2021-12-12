@@ -2,9 +2,6 @@
 
 .item1 {
   grid-area: logo;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/moodboardogstyletiles/logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .item2 {
@@ -13,18 +10,19 @@
 }
 .item2 > h1 {
   font-family: Montserrat;
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
   color: blue;
   line-height: 20%;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
+  letter-spacing: 0.2rem;
 
 }
 
 .item2 > h1 > p {
-  font-weight: bold;
+  font-weight: normal;
   color: hotpink;
 }
 
@@ -43,7 +41,7 @@
 
 .item3 a {
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   color: blue;
 }
 
@@ -53,43 +51,44 @@
 
 .item4 {
   grid-area: picture;
-  background-color: pink;
-
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/portræt/medfarverpotrættilpræsentationsport1000bred.png')center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .subitem1 {
   grid-area: video;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem2 {
   grid-area: photos;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem3 {
   grid-area: catanimation;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 }
 .subitem4 {
   grid-area: isometricart;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem5 {
   grid-area: animation;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem6 {
   grid-area: ingenide;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
@@ -109,8 +108,8 @@
   '. video photos .'
   '. catanimation isometricart .'
   '. animation ingenide .';
-  grid-gap: 50px;
-  padding: 20px;
+  grid-gap: 3.125rem;
+  padding: 1.25rem;
 }
 
 .item5 > .subcontainer > div {
@@ -119,80 +118,80 @@
 
 .subitem1b {
   grid-area: video;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
 .tekst1 {
   grid-area: videotekst;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem2b {
   grid-area: photos;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
 .tekst2 {
   grid-area: photostekst;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem3b {
   grid-area: catanimation;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
 .tekst3 {
   grid-area: catanimationtekst;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem4b {
   grid-area: isometricart;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
 .tekst4 {
   grid-area: isometricarttekst;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem5b {
   grid-area: animation;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
 .tekst5 {
   grid-area: animationtekst;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 .subitem6b {
   grid-area: ingenide;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
 .tekst6 {
   grid-area: ingenidetekst;
-  height: 150px;
-  width: 150px;
+  height: 9.5rem;
+  width: 9.5rem;
 
 }
 
@@ -208,22 +207,83 @@
   '. animation animationtekst .'
   '. ingenidetekst ingenide .'
   ;
-  grid-gap: 50px;
-  padding: 20px;
+  grid-gap: 3.125rem;
+  padding: 1.25rem;
 }
 
 .item5 > .subcontainerb > div {
   background-color: white;
 }
 
+.subitem1c {
+  grid-area: hobby1;
+  height: 9.5rem;
+  width: 9.5rem;
+
+}
+.subitem2c {
+  grid-area: hobby2;
+  height: 9.5rem;
+  width: 9.5rem;
+
+}
+.subitem3c {
+  grid-area: hobby3;
+  height: 9.5rem;
+  width: 9.5rem;
+}
+.subitem4c {
+  grid-area: hobby4;
+  height: 9.5rem;
+  width: 9.5rem;
+
+}
+.subitem5c {
+  grid-area: hobby5;
+  height: 9.5rem;
+  width: 9.5rem;
+
+}
+.subitem6c {
+  grid-area: hobby6;
+  height: 9.5rem;
+  width: 9.5rem;
+
+}
+
+.item5 > .subcontainerc {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-areas:
+  '. hobby1 hobby1 .'
+  '. hobby2 hobby2 .'
+  '. hobby3 hobby3 .'
+  '. hobby4 hobby4 .'
+  '. hobby5 hobby5 .'
+  '. hobby6 hobby6 .';
+  grid-gap: 3.125rem;
+  padding: 1.25rem;
+}
+
+.item5 > .subcontainerc > div {
+  background-color: white;
+}
+
 .item6 {
   grid-area: footer;
   background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
 
 }
 .socials {
   display: flex;
   align-content: space-between;
+  flex-direction: column;
+
 }
 
 .socials > p {
@@ -231,18 +291,19 @@
   color: blue;
   text-transform: uppercase;
   width: auto;
-  height: 30px;
+  height: 1rem;
   margin: auto;
-  padding: 10px;
+  padding: 0.5rem;
+
 
 }
 
 .socials > ul {
   display: flex;
   width: auto;
-  height: 30px;
+  height: 2rem;
   margin: auto;
-  padding: 10px;
+  padding: 0.5rem;
 
 
 }
@@ -253,8 +314,8 @@
 
 .socialicon a {
   color: blue;
-  font-size: 30px;
-  padding: 10px 20px;
+  font-size: 2rem;
+  padding: 0.5rem 1.3rem;
 
 }
 
@@ -269,12 +330,12 @@
     'nav picture picture picture'
     'main main main main'
     'footer footer footer footer';
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
 }
 
 .grid-container > div {
   text-align: center;
-  padding: 20px 0;
+  padding: 1.3rem 0;
 
 }
