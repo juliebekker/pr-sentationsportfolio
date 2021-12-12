@@ -73,8 +73,6 @@
   height: 9.5rem;
   width: 9.5rem;
 }
-
-}
 .subitem4 {
   grid-area: isometricart;
   height: 9.5rem;
@@ -339,22 +337,5 @@
 .grid-container > div {
   text-align: center;
   padding: 1.3rem 0;
-
-}
-
-@media screen and (min-width: 550px) {
-  html,body {
-    height: 100%;
-  }
-  .item5 > .subcontainer {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-    grid-template-rows: 2fr 2fr;
-    grid-template-areas:
-    '. video photos catanimation .'
-    '. isometricart animation ingenide .';
-    grid-gap: 3.125rem;
-    padding: 1.25rem;
-  }
 
 }
