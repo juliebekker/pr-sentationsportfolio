@@ -12,22 +12,27 @@
   font-family: Montserrat;
   font-weight: bold;
   text-align: left;
-  color: blue;
+  color: #ffacbb;
   line-height: 20%;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   letter-spacing: 0.2rem;
+  margin-left: 1rem;
+  align-items: baseline;
 
 }
 
 .item2 > h1 > p {
   font-weight: normal;
-  color: hotpink;
+  color: #52648e;
 }
 
 .item3 {
   grid-area: nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .item3  ul {
@@ -42,7 +47,11 @@
 .item3 a {
   text-decoration: none;
   letter-spacing: 0.2rem;
-  color: blue;
+  color: #52648e;
+}
+
+.item3 a:hover {
+  background-color: #f6d7c3;
 }
 
 #siden {
@@ -51,44 +60,6 @@
 
 .item4 {
   grid-area: picture;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/portræt/medfarverpotrættilpræsentationsport1000bred.png')center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.subitem1 {
-  grid-area: video;
-  height: 9.5rem;
-  width: 9.5rem;
-
-}
-.subitem2 {
-  grid-area: photos;
-  height: 9.5rem;
-  width: 9.5rem;
-
-}
-.subitem3 {
-  grid-area: catanimation;
-  height: 9.5rem;
-  width: 9.5rem;
-}
-.subitem4 {
-  grid-area: isometricart;
-  height: 9.5rem;
-  width: 9.5rem;
-
-}
-.subitem5 {
-  grid-area: animation;
-  height: 9.5rem;
-  width: 9.5rem;
-
-}
-.subitem6 {
-  grid-area: ingenide;
-  height: 9.5rem;
-  width: 9.5rem;
 
 }
 
@@ -97,8 +68,62 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: pink;
+  background-color: #fed7dd;
   }
+
+.subitem1 {
+  grid-area: video;
+  height: 9.5rem;
+  width: auto;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+
+
+}
+.subitem2 {
+  grid-area: photos;
+  height: 9.5rem;
+  width: 9.5rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/lillerulle.png') 0 0 no-repeat;
+  animation: subitemsphotos 10s steps(5) infinite;
+
+}
+@keyframes subitemsphotos {
+  0% {background-position: 0px;}
+  100% {background-position: -760px;}
+
+}
+
+.subitem3 {
+  grid-area: catanimation;
+  height: 9.5rem;
+  width: 9.5rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/lillekattenn.png') 0 0 no-repeat;
+  animation: catanimation 1s steps(10) infinite;
+}
+
+
+.subitem4 {
+  grid-area: isometricart;
+  height: 9.5rem;
+  width: auto;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  }
+
+
+.subitem5 {
+  grid-area: animation;
+  height: 9.5rem;
+  width: auto;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+
+}
+.subitem6 {
+  grid-area: ingenide;
+  height: 9.5rem;
+  width: auto;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+
+}
 
 .item5 > .subcontainer {
   display: grid;
@@ -116,163 +141,227 @@
   background-color: white;
 }
 
+
 .subitem1b {
   grid-area: video;
   height: 9.5rem;
-  width: 9.5rem;
+  width: auto;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
 
 }
 
 .tekst1 {
   grid-area: videotekst;
-  height: 9.5rem;
-  width: 9.5rem;
+  height: auto;
+  width: auto;
 
 }
 .subitem2b {
   grid-area: photos;
   height: 9.5rem;
-  width: 9.5rem;
+  width: 14.25rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/rullen.png');
+  animation: photos 10s steps(5) infinite;
+
+}
+@keyframes photos {
+  0% {background-position: 0px;}
+  100% {background-position: -1140px;}
 
 }
 
+
 .tekst2 {
   grid-area: photostekst;
-  height: 9.5rem;
-  width: 9.5rem;
+  height: auto;
+  width: auto;
 
 }
 .subitem3b {
   grid-area: catanimation;
   height: 9.5rem;
   width: 9.5rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/lillekattenn.png') 0 0 no-repeat;
+  animation: catanimation 1s steps(10) infinite;
+
+}
+@keyframes catanimation {
+  0% {background-position: 0px;}
+  100% {background-position: -1520px;}
 
 }
 
 .tekst3 {
   grid-area: catanimationtekst;
-  height: 9.5rem;
-  width: 9.5rem;
+  height: auto;
+  width: auto;
 
 }
 .subitem4b {
   grid-area: isometricart;
   height: 9.5rem;
   width: 9.5rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
 
 }
 
 .tekst4 {
   grid-area: isometricarttekst;
-  height: 9.5rem;
-  width: 9.5rem;
+  height: auto;
+  width: auto;
 
 }
 .subitem5b {
   grid-area: animation;
   height: 9.5rem;
-  width: 9.5rem;
+  width: auto;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
 
 }
 
 .tekst5 {
   grid-area: animationtekst;
-  height: 9.5rem;
-  width: 9.5rem;
+  height: auto;
+  width: auto;
 
 }
 .subitem6b {
   grid-area: ingenide;
   height: 9.5rem;
   width: 9.5rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
 
 }
 
 .tekst6 {
   grid-area: ingenidetekst;
-  height: 9.5rem;
-  width: 9.5rem;
+  height: auto;
+  width: auto;
 
 }
 
 .item5 > .subcontainerb {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr ;
-  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr 1fr 2fr 2fr 1fr 2fr 2fr 1fr 2fr 2fr 1fr 2fr 2fr 1fr 2fr 2fr;
   grid-template-areas:
-  '. video videotekst .'
-  '. photostekst photos .'
-  '. catanimation catanimationtekst .'
-  '. isometricarttekst isometricart .'
-  '. animation animationtekst .'
-  '. ingenidetekst ingenide .'
+  '. video . .'
+  '. videotekst videotekst .'
+  '. . . .'
+  '. photos . .'
+  '. photostekst photostekst .'
+  '. . . .'
+  '. catanimation . .'
+  '. catanimationtekst catanimationtekst .'
+  '. . . .'
+  '. isometricart . .'
+  '. isometricarttekst isometricarttekst .'
+  '. . . .'
+  '. animation . .'
+  '. animationtekst animationtekst .'
+  '. . . .'
+  '. ingenide . .'
+  '. ingenidetekst ingenidetekst .'
   ;
-  grid-gap: 3.125rem;
-  padding: 1.25rem;
+  grid-gap: 1rem;
+  padding: 2rem;
 }
 
 .item5 > .subcontainerb > div {
   background-color: white;
+  font-family: Montserrat;
+  color: #52648e;
+
 }
 
 .subitem1c {
-  grid-area: hobby1;
-  height: 9.5rem;
-  width: 9.5rem;
+  grid-area: personlighedlogo;
+  height: 6.25rem;
+  width: 6.25rem;
 
 }
 .subitem2c {
-  grid-area: hobby2;
-  height: 9.5rem;
-  width: 9.5rem;
+  grid-area: personlighed;
+  height: auto;
+  width: auto;
 
 }
 .subitem3c {
-  grid-area: hobby3;
-  height: 9.5rem;
-  width: 9.5rem;
+  grid-area: multimediedesignlogo;
+  height: 6.25rem;
+  width: 6.25rem;
 }
 .subitem4c {
-  grid-area: hobby4;
-  height: 9.5rem;
-  width: 9.5rem;
+  grid-area: multimediedesign;
+  height: auto;
+  width: auto;
 
 }
 .subitem5c {
-  grid-area: hobby5;
-  height: 9.5rem;
-  width: 9.5rem;
+  grid-area: fritidlogo;
+  height: 6.25rem;
+  width: 6.25rem;
 
 }
 .subitem6c {
-  grid-area: hobby6;
-  height: 9.5rem;
-  width: 9.5rem;
+  grid-area: fritid;
+  height: auto;
+  width: auto;
 
 }
 
 .item5 > .subcontainerc {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-columns: 0.5fr 1fr 2fr 2fr 0.5fr;
+  grid-template-rows: 2fr 2fr 2fr;
   grid-template-areas:
-  '. hobby1 hobby1 .'
-  '. hobby2 hobby2 .'
-  '. hobby3 hobby3 .'
-  '. hobby4 hobby4 .'
-  '. hobby5 hobby5 .'
-  '. hobby6 hobby6 .';
-  grid-gap: 3.125rem;
-  padding: 1.25rem;
+  '. personlighedlogo personlighed personlighed .'
+  '. multimediedesignlogo multimediedesign multimediedesign .'
+  '. fritidlogo fritid fritid .';
+  grid-gap: 1rem;
+  padding: 2rem;
 }
 
 .item5 > .subcontainerc > div {
   background-color: white;
+  font-family: Montserrat;
+  color: #52648e;
+
+}
+
+.subitem1d{
+  grid-area: rubrik;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.subitem2d {
+  grid-area: brødtekst;
+}
+
+.item5 > .subcontainerd {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  grid-template-areas:
+  '. rubrik .'
+  '.brødtekst .';
+  grid-gap: 0.5rem;
+  padding: 1rem;
+
+}
+
+
+.item5 > .subcontainerd > div {
+  font-family: Montserrat;
+  color: #52648e;
+  margin-left: 1.5rem;
 }
 
 .item6 {
   grid-area: footer;
-  background-color: lightblue;
+  background-color: #c8d5f6;
+  height: 5rem;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -288,10 +377,10 @@
 
 .socials > p {
   font-family: Courier;
-  color: blue;
+  color: #52648e;
   text-transform: uppercase;
   width: auto;
-  height: 1rem;
+  height: 0.5rem;
   margin: auto;
   padding: 0.5rem;
 
@@ -313,7 +402,7 @@
 }
 
 .socialicon a {
-  color: blue;
+  color: #52648e;
   font-size: 2rem;
   padding: 0.5rem 1.3rem;
 
@@ -337,5 +426,170 @@
 .grid-container > div {
   text-align: center;
   padding: 1.3rem 0;
+
+}
+
+@media screen and (min-width: 650px) {
+  html,body {
+    height: 100%;
+  }
+  .item5 > .subcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas:
+    '. video photos catanimation .'
+    '. isometricart animation ingenide .';
+    grid-gap: 3.125rem;
+    padding: 1.25rem;
+  }
+
+  .item5 > .subcontainerd {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas:
+    '. rubrik .'
+    '.brødtekst .';
+    grid-gap: 0.5rem;
+    padding: 1rem;
+
+  }
+
+  .item5 > .subcontainerd > div {
+    margin-left: 0rem;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  html,body {
+    height: 100%;
+  }
+
+  .subitem1 {
+    grid-area: video;
+    height: 15rem;
+    width: 15rem;
+    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+  }
+  .subitem2 {
+    grid-area: photos;
+    height: 15rem;
+    width: 15rem;
+    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/storrulle.png') 0 0 no-repeat;
+    animation: subitemsphotos 10s steps(5) infinite;
+
+  }
+  @keyframes subitemsphotos {
+    0% {background-position: 0px;}
+    100% {background-position: -1200px;}
+
+  }
+
+  .subitem3 {
+    grid-area: catanimation;
+    height: 15rem;
+    width: 15rem;
+    background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/storkattenn.png') 0 0 no-repeat;
+    animation: catanimation 1s steps(10) infinite;
+  }
+  @keyframes catanimation {
+    0% {background-position: 0px;}
+    100% {background-position: -2400px;}
+
+  }
+  .subitem4 {
+    grid-area: isometricart;
+    height: 15rem;
+    width: 15rem;
+    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+  }
+  .subitem5 {
+    grid-area: animation;
+    height: 15rem;
+    width: 15rem;
+    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+  }
+  .subitem6 {
+    grid-area: ingenide;
+    height: 15rem;
+    width: 15rem;
+    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+  }
+  .item5 > .subcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas:
+    '. video photos catanimation .'
+    '. isometricart animation ingenide .';
+    grid-gap: 3.125rem;
+    padding: 1.25rem;
+  }
+
+  .subitem1b {
+    grid-area: video;
+    height: 15rem;
+    width: auto;
+    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+  }
+
+
+.subitem2b {
+  grid-area: photos;
+  height: 15rem;
+  width: 22.5rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/rullen2.png') 0 0 no-repeat;
+  animation: photos 10s steps(5) infinite;
+
+}
+@keyframes photos {
+  0% {background-position: 0px;}
+  100% {background-position: -1800px;}
+
+}
+.subitem3b {
+  grid-area: catanimation;
+  height: 15rem;
+  width: 15rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/storkattenn.png') 0 0 no-repeat;
+  animation: catanimation 1s steps(10) infinite;
+
+}
+@keyframes catanimation {
+  0% {background-position: 0px;}
+  100% {background-position: -2400px;}
+
+}
+.subitem4b {
+  grid-area: isometricart;
+  height: 15rem;
+  width: 15rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+}
+
+.subitem5b {
+  grid-area: animation;
+  height: 15rem;
+  width: auto;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+}
+
+
+.subitem6b {
+  grid-area: ingenide;
+  height: 15rem;
+  width: 15rem;
+  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+
+}
 
 }
