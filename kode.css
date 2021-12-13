@@ -4,6 +4,11 @@
   grid-area: logo;
 }
 
+.item1 img {
+  width: 50%;
+  height: auto;
+}
+
 .item2 {
   grid-area: header;
   box-sizing: border-box;
@@ -20,12 +25,23 @@
   letter-spacing: 0.2rem;
   margin-left: 1rem;
   align-items: baseline;
+  font-size: 2rem;
 
 }
 
-.item2 > h1 > p {
+.item2 > h2 {
   font-weight: normal;
   color: #52648e;
+  font-family: Montserrat;
+  text-align: left;
+  line-height: 20%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.2rem;
+  margin-left: 1rem;
+  align-items: baseline;
+  font-size: 2rem;
 }
 
 .item3 {
@@ -63,6 +79,10 @@
 
 }
 
+.item4 img {
+  width: 100%;
+}
+
 .item5 {
   grid-area: main;
   display: flex;
@@ -75,7 +95,7 @@
   grid-area: video;
   height: 9.5rem;
   width: auto;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
 
 
 }
@@ -83,7 +103,7 @@
   grid-area: photos;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/lillerulle.png') 0 0 no-repeat;
+  background: url('lillerulle.png') 0 0 no-repeat;
   animation: subitemsphotos 10s steps(5) infinite;
 
 }
@@ -97,7 +117,7 @@
   grid-area: catanimation;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/lillekattenn.png') 0 0 no-repeat;
+  background: url('lillekattenn.png') 0 0 no-repeat;
   animation: catanimation 1s steps(10) infinite;
 }
 
@@ -106,7 +126,7 @@
   grid-area: isometricart;
   height: 9.5rem;
   width: auto;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
   }
 
 
@@ -114,14 +134,14 @@
   grid-area: animation;
   height: 9.5rem;
   width: auto;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
 
 }
 .subitem6 {
   grid-area: ingenide;
   height: 9.5rem;
   width: auto;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
 
 }
 
@@ -146,7 +166,7 @@
   grid-area: video;
   height: 9.5rem;
   width: auto;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
 
 }
 
@@ -160,7 +180,7 @@
   grid-area: photos;
   height: 9.5rem;
   width: 14.25rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/rullen.png');
+  background: url('rullen.png');
   animation: photos 10s steps(5) infinite;
 
 }
@@ -181,7 +201,7 @@
   grid-area: catanimation;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/lillekattenn.png') 0 0 no-repeat;
+  background: url('lillekattenn.png') 0 0 no-repeat;
   animation: catanimation 1s steps(10) infinite;
 
 }
@@ -201,7 +221,7 @@
   grid-area: isometricart;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
 
 }
 
@@ -215,7 +235,7 @@
   grid-area: animation;
   height: 9.5rem;
   width: auto;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
 
 }
 
@@ -229,7 +249,7 @@
   grid-area: ingenide;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4lille.png');
+  background: url('4lille.png');
 
 }
 
@@ -409,7 +429,7 @@
 }
 
 .socialicon a:hover {
-  color: #f6d7c3;
+  color: #FFACBB;
 }
 
 
@@ -475,14 +495,14 @@
     grid-area: video;
     height: 15rem;
     width: 15rem;
-    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+    background: url('4stor.png');
 
   }
   .subitem2 {
     grid-area: photos;
     height: 15rem;
     width: 15rem;
-    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/storrulle.png') 0 0 no-repeat;
+    background: url('storrulle.png') 0 0 no-repeat;
     animation: subitemsphotos 10s steps(5) infinite;
 
   }
@@ -496,7 +516,7 @@
     grid-area: catanimation;
     height: 15rem;
     width: 15rem;
-    background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/storkattenn.png') 0 0 no-repeat;
+    background: url('storkattenn.png') 0 0 no-repeat;
     animation: catanimation 1s steps(10) infinite;
   }
   @keyframes catanimation {
@@ -508,21 +528,21 @@
     grid-area: isometricart;
     height: 15rem;
     width: 15rem;
-    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+    background: url('4stor.png');
 
   }
   .subitem5 {
     grid-area: animation;
     height: 15rem;
     width: 15rem;
-    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+    background: url('4stor.png');
 
   }
   .subitem6 {
     grid-area: ingenide;
     height: 15rem;
     width: 15rem;
-    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+    background: url('4stor.png');
 
   }
   .item5 > .subcontainer {
@@ -540,7 +560,7 @@
     grid-area: video;
     height: 15rem;
     width: auto;
-    background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+    background: url('4stor.png');
 
   }
 
@@ -549,7 +569,7 @@
   grid-area: photos;
   height: 15rem;
   width: 22.5rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/rullen2.png') 0 0 no-repeat;
+  background: url('rullen2.png') 0 0 no-repeat;
   animation: photos 10s steps(5) infinite;
 
 }
@@ -562,7 +582,7 @@
   grid-area: catanimation;
   height: 15rem;
   width: 15rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/animationsworkshop/storkattenn.png') 0 0 no-repeat;
+  background: url('storkattenn.png') 0 0 no-repeat;
   animation: catanimation 1s steps(10) infinite;
 
 }
@@ -575,7 +595,7 @@
   grid-area: isometricart;
   height: 15rem;
   width: 15rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+  background: url('4stor.png');
 
 }
 
@@ -583,7 +603,7 @@
   grid-area: animation;
   height: 15rem;
   width: auto;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+  background: url('4stor.png');
 
 }
 
@@ -592,7 +612,7 @@
   grid-area: ingenide;
   height: 15rem;
   width: 15rem;
-  background: url('C:/Users/julie/OneDrive/MMD/1. semester/projekt 3/billeder/produkt/9.5/kvadrater/4stor.png');
+  background: url('4stor.png');
 
 }
 
