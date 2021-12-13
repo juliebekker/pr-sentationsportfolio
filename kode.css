@@ -109,14 +109,15 @@
   animation: subitemsphotos 10s steps(5) infinite;
 
 }
-.subitem2 {
-  grid-area: photos;
-}
 
 @keyframes subitemsphotos {
   0% {background-position: 0px;}
   100% {background-position: -760px;}
 
+}
+
+.subitem2 {
+  grid-area: photos;
 }
 
 .subitem3boks {
@@ -510,15 +511,18 @@
     height: 100%;
   }
 
-  .subitem1 {
-    grid-area: video;
+  .subitem1boks {
     height: 15rem;
     width: 15rem;
     background: url('4stor.png');
 
   }
-  .subitem2 {
-    grid-area: photos;
+
+  .subitem1 {
+    grid-area: video;
+  }
+
+  .subitem2boks {
     height: 15rem;
     width: 15rem;
     background: url('storrulle.png') 0 0 no-repeat;
@@ -531,8 +535,11 @@
 
   }
 
-  .subitem3 {
-    grid-area: catanimation;
+  .subitem2 {
+    grid-area: photos;
+  }
+
+  .subitem3boks {
     height: 15rem;
     width: 15rem;
     background: url('storkattenn.png') 0 0 no-repeat;
@@ -543,27 +550,45 @@
     100% {background-position: -2400px;}
 
   }
+  .subitem3 {
+    grid-area: catanimation;
+  }
+
+  .subitem4boks {
+    height: 15rem;
+    width: 15rem;
+    background: url('4stor.png');
+
+  }
+
   .subitem4 {
     grid-area: isometricart;
+  }
+
+  .subitem5boks {
     height: 15rem;
     width: 15rem;
     background: url('4stor.png');
 
   }
+
   .subitem5 {
     grid-area: animation;
+  }
+
+
+  .subitem6boks {
     height: 15rem;
     width: 15rem;
     background: url('4stor.png');
 
   }
+
   .subitem6 {
     grid-area: ingenide;
-    height: 15rem;
-    width: 15rem;
-    background: url('4stor.png');
-
   }
+
+
   .item5 > .subcontainer {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
@@ -634,5 +659,4 @@
   background: url('4stor.png');
 
 }
-
 }
