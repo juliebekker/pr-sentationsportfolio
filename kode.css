@@ -91,58 +91,77 @@
   background-color: #fed7dd;
   }
 
-.subitem1 {
-  grid-area: video;
+.subitem1boks {
   height: 9.5rem;
   width: auto;
   background: url('4lille.png');
 
+}
+.subitem1 {
+  grid-area: video;
 
 }
-.subitem2 {
-  grid-area: photos;
+
+.subitem2boks {
   height: 9.5rem;
   width: 9.5rem;
   background: url('lillerulle.png') 0 0 no-repeat;
   animation: subitemsphotos 10s steps(5) infinite;
 
 }
+.subitem2 {
+  grid-area: photos;
+}
+
 @keyframes subitemsphotos {
   0% {background-position: 0px;}
   100% {background-position: -760px;}
 
 }
 
-.subitem3 {
-  grid-area: catanimation;
+.subitem3boks {
   height: 9.5rem;
   width: 9.5rem;
   background: url('lillekattenn.png') 0 0 no-repeat;
   animation: catanimation 1s steps(10) infinite;
 }
 
+.subitem3 {
+  grid-area: catanimation;
+}
 
-.subitem4 {
-  grid-area: isometricart;
+.subitem4boks {
   height: 9.5rem;
   width: auto;
   background: url('4lille.png');
   }
 
+.subitem4 {
+  grid-area: isometricart;
+}
 
-.subitem5 {
-  grid-area: animation;
+
+.subitem5boks {
   height: 9.5rem;
   width: auto;
   background: url('4lille.png');
 
 }
-.subitem6 {
-  grid-area: ingenide;
+
+.subitem5 {
+  grid-area: animation;
+}
+
+
+.subitem6boks {
   height: 9.5rem;
   width: auto;
   background: url('4lille.png');
 
+}
+
+.subitem6 {
+  grid-area: ingenide;
 }
 
 .item5 > .subcontainer {
