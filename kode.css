@@ -302,6 +302,7 @@
   height: 6.25rem;
   width: 6.25rem;
 
+
 }
 .subitem6c {
   grid-area: fritid;
@@ -323,7 +324,6 @@
 }
 
 .item5 > .subcontainerc > div {
-  background-color: white;
   font-family: Montserrat;
   color: #52648e;
 
@@ -406,6 +406,10 @@
   font-size: 2rem;
   padding: 0.5rem 1.3rem;
 
+}
+
+.socialicon a:hover {
+  color: #f6d7c3;
 }
 
 
