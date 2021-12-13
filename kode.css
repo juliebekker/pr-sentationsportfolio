@@ -105,7 +105,7 @@
 .subitem2boks {
   height: 9.5rem;
   width: 9.5rem;
-  background: url('lillerulle.png') 0 0 no-repeat;
+  background: url('lillerulle.jpg') 0 0 no-repeat;
   animation: subitemsphotos 10s steps(5) infinite;
 
 }
@@ -123,7 +123,7 @@
 .subitem3boks {
   height: 9.5rem;
   width: 9.5rem;
-  background: url('lillekattenn.png') 0 0 no-repeat;
+  background: url('lillekattenn.jpg') 0 0 no-repeat;
   animation: catanimation 1s steps(10) infinite;
 }
 
@@ -145,7 +145,7 @@
 .subitem5boks {
   height: 9.5rem;
   width: auto;
-  background: url('4lille.png');
+  background: url('girlinwindow.jpg');
 
 }
 
@@ -201,7 +201,7 @@
   grid-area: photos;
   height: 9.5rem;
   width: 14.25rem;
-  background: url('rullen.png');
+  background: url('rullen.jpg');
   animation: photos 10s steps(5) infinite;
 
 }
@@ -222,7 +222,7 @@
   grid-area: catanimation;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('lillekattenn.png') 0 0 no-repeat;
+  background: url('lillekattenn.jpg') 0 0 no-repeat;
   animation: catanimation 1s steps(10) infinite;
 
 }
@@ -527,7 +527,7 @@
   .subitem2boks {
     height: 15rem;
     width: 15rem;
-    background: url('storrulle.png') 0 0 no-repeat;
+    background: url('storrulle.jpg') 0 0 no-repeat;
     animation: subitemsphotos 10s steps(5) infinite;
 
   }
@@ -544,7 +544,7 @@
   .subitem3boks {
     height: 15rem;
     width: 15rem;
-    background: url('storkattenn.png') 0 0 no-repeat;
+    background: url('storkattenn.jpg') 0 0 no-repeat;
     animation: catanimation 1s steps(10) infinite;
   }
   @keyframes catanimation {
@@ -570,7 +570,7 @@
   .subitem5boks {
     height: 15rem;
     width: 15rem;
-    background: url('4stor.png');
+    background: url('girlinwindow2.jpg');
 
   }
 
@@ -617,7 +617,7 @@
   grid-area: photos;
   height: 15rem;
   width: 22.5rem;
-  background: url('rullen2.png') 0 0 no-repeat;
+  background: url('rullen2.jpg') 0 0 no-repeat;
   animation: photos 10s steps(5) infinite;
 
 }
@@ -630,7 +630,7 @@
   grid-area: catanimation;
   height: 15rem;
   width: 15rem;
-  background: url('storkattenn.png') 0 0 no-repeat;
+  background: url('storkattenn.jpg') 0 0 no-repeat;
   animation: catanimation 1s steps(10) infinite;
 
 }
