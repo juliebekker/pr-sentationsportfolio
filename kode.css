@@ -184,11 +184,12 @@
 
 .subitem1b {
   grid-area: video;
-  height: 9.5rem;
-  width: auto;
-  background: url('4lille.png');
+  }
 
-}
+  .subitem1b video{
+    height: 9.5rem;
+    width: auto;
+  }
 
 .tekst1 {
   grid-area: videotekst;
@@ -253,11 +254,13 @@
 }
 .subitem5b {
   grid-area: animation;
+}
+
+.subitem5b video{
   height: 9.5rem;
   width: auto;
-  background: url('4lille.png');
-
 }
+
 
 .tekst5 {
   grid-area: animationtekst;
@@ -304,11 +307,10 @@
   '. ingenidetekst ingenidetekst .'
   ;
   grid-gap: 1rem;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .item5 > .subcontainerb > div {
-  background-color: white;
   font-family: Montserrat;
   color: #52648e;
 
@@ -602,11 +604,13 @@
 
   .subitem1b {
     grid-area: video;
+  }
+
+  .subitem1b video{
     height: 15rem;
     width: auto;
-    background: url('4stor.png');
-
   }
+
 
 
 .subitem2b {
@@ -645,10 +649,11 @@
 
 .subitem5b {
   grid-area: animation;
+}
+
+.subitem5b video{
   height: 15rem;
   width: auto;
-  background: url('4stor.png');
-
 }
 
 
