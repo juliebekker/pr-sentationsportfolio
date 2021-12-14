@@ -544,7 +544,7 @@
   .subitem3boks {
     height: 15rem;
     width: 15rem;
-    background: url('storkattenn.jpg') 0 0 no-repeat;
+    background: url('storkattennforside.jpg') 0 0 no-repeat;
     animation: catanimation 1s steps(10) infinite;
   }
   @keyframes catanimation {
@@ -559,7 +559,7 @@
   .subitem4boks {
     height: 15rem;
     width: 15rem;
-    background: url('isoartstor.jpg');
+    background: url('isoartmellem.jpg');
 
   }
 
@@ -631,10 +631,10 @@
   height: 25rem;
   width: 25rem;
   background: url('storkattenn.jpg') 0 0 no-repeat;
-  animation: catanimation 1s steps(10) infinite;
+  animation: catanimation2 1s steps(10) infinite;
 
 }
-@keyframes catanimation {
+@keyframes catanimation2 {
   0% {background-position: 0px;}
   100% {background-position: -4000px;}
 
