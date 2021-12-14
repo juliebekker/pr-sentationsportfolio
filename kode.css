@@ -93,8 +93,8 @@
 
 .subitem1boks {
   height: 9.5rem;
-  width: auto;
-  background: url('4lille.png');
+  width: 9.5rem;
+  background: url('thumbnaillille.jpg');
 
 }
 .subitem1 {
@@ -144,7 +144,7 @@
 
 .subitem5boks {
   height: 9.5rem;
-  width: auto;
+  width: 9.5rem;
   background: url('girlinwindow.jpg');
 
 }
@@ -156,8 +156,8 @@
 
 .subitem6boks {
   height: 9.5rem;
-  width: auto;
-  background: url('4lille.png');
+  width: 9.5rem;
+  background: url('POTRÆT152.jpg');
 
 }
 
@@ -177,9 +177,6 @@
   padding: 1.25rem;
 }
 
-.item5 > .subcontainer > div {
-  background-color: white;
-}
 
 
 .subitem1b {
@@ -272,7 +269,7 @@
   grid-area: ingenide;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('4lille.png');
+  background: url('POTRÆT152.jpg');
 
 }
 
@@ -516,7 +513,7 @@
   .subitem1boks {
     height: 15rem;
     width: 15rem;
-    background: url('4stor.png');
+    background: url('thumbnailstor.jpg');
 
   }
 
@@ -582,7 +579,7 @@
   .subitem6boks {
     height: 15rem;
     width: 15rem;
-    background: url('4stor.png');
+    background: url('POTRÆT240.jpg');
 
   }
 
@@ -661,7 +658,7 @@
   grid-area: ingenide;
   height: 25rem;
   width: 25rem;
-  background: url('isoartstor.jpg');
+  background: url('POTRÆTstor.jpg');
 
 }
 
