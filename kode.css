@@ -133,8 +133,8 @@
 
 .subitem4boks {
   height: 9.5rem;
-  width: auto;
-  background: url('4lille.png');
+  width: 9.5rem;
+  background: url('isoartlille.jpg');
   }
 
 .subitem4 {
@@ -242,7 +242,7 @@
   grid-area: isometricart;
   height: 9.5rem;
   width: 9.5rem;
-  background: url('4lille.png');
+  background: url('isoartlille.jpg');
 
 }
 
@@ -559,7 +559,7 @@
   .subitem4boks {
     height: 15rem;
     width: 15rem;
-    background: url('4stor.png');
+    background: url('isoartstor.jpg');
 
   }
 
@@ -643,7 +643,7 @@
   grid-area: isometricart;
   height: 15rem;
   width: 15rem;
-  background: url('4stor.png');
+  background: url('isoartstor.jpg');
 
 }
 
