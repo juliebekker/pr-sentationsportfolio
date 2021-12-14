@@ -641,8 +641,8 @@
 }
 .subitem4b {
   grid-area: isometricart;
-  height: 15rem;
-  width: 15rem;
+  height: 25rem;
+  width: 25rem;
   background: url('isoartstor.jpg');
 
 }
@@ -659,9 +659,9 @@
 
 .subitem6b {
   grid-area: ingenide;
-  height: 15rem;
-  width: 15rem;
-  background: url('4stor.png');
+  height: 25rem;
+  width: 25rem;
+  background: url('isoartstor.jpg');
 
 }
 
