@@ -652,7 +652,7 @@
 }
 
 .subitem5b video{
-  height: 15rem;
+  height: 25rem;
   width: auto;
 }
 
@@ -664,4 +664,25 @@
   background: url('4stor.png');
 
 }
+
+.item5 > .subcontainerb {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr ;
+  grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+  grid-template-areas:
+  '. video . .'
+  '. videotekst videotekst .'
+  '. photos . .'
+  '. photostekst photostekst .'
+  '. catanimation . .'
+  '. catanimationtekst catanimationtekst .'
+  '. isometricart . .'
+  '. isometricarttekst isometricarttekst .'
+  '. animation . .'
+  '. animationtekst animationtekst .'
+  '. ingenide . .'
+  '. ingenidetekst ingenidetekst .'
+  ;
+}
+
 }
