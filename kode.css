@@ -58,6 +58,7 @@
   font-family: Courier;
   text-align: right;
   flex-direction: column;
+  line-height: 2;
 }
 
 .item3 a {
@@ -323,6 +324,7 @@
   grid-area: personlighed;
   height: auto;
   width: auto;
+  line-height: 1.8;
 
 }
 .subitem3c {
@@ -334,6 +336,7 @@
   grid-area: multimediedesign;
   height: auto;
   width: auto;
+  line-height: 1.8;
 
 }
 .subitem5c {
@@ -347,6 +350,7 @@
   grid-area: fritid;
   height: auto;
   width: auto;
+  line-height: 1.8;
 
 }
 
@@ -372,16 +376,18 @@
   grid-area: rubrik;
   text-transform: uppercase;
   font-weight: bold;
+  line-height: 2;
 }
 
 .subitem2d {
   grid-area: brødtekst;
+  line-height: 2;
 }
 
 .item5 > .subcontainerd {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
   '. rubrik .'
   '.brødtekst .';
@@ -476,6 +482,11 @@
   html,body {
     height: 100%;
   }
+
+  .item3  ul {
+    line-height: 2.5;
+  }
+
   .item5 > .subcontainer {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
